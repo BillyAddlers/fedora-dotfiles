@@ -1,0 +1,12 @@
+[pyprland]
+
+plugins = [
+  "scratchpads",
+  "magnify",
+]
+
+[scratchpads.term_quake]
+animation = "fromTop"
+command = "wezterm start --class wezterm-float"
+class = "term_quake"
+size = "75% 60%"
