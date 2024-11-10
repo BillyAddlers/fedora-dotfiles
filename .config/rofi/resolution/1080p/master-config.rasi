@@ -43,8 +43,8 @@ window {
     transparency:               "real";
     cursor:                     "default";
     spacing:                    0px;
-    border:                     4px 0px 4px 0px;
-    border-radius:              30px;
+    border:                     2px 2px 2px 2px;
+    border-radius:              20px;
     location:                   center;
     anchor:                     center;
 

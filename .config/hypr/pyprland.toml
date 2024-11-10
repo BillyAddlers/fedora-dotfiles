@@ -8,5 +8,5 @@ plugins = [
 [scratchpads.term_quake]
 animation = "fromTop"
 command = "wezterm start --class wezterm-float"
-class = "term_quake"
+class = "wezterm-float"
 size = "75% 60%"
