@@ -12,6 +12,7 @@ if pgrep -x "rofi" >/dev/null; then
     exit 0
 fi
 
-# Open rofi with a dmenu and pass the selected item to xdg-open for Google search
-echo "" | rofi -dmenu -config "$rofi_config" -p "Search:" | xargs -I{} xdg-open "https://www.google.com/search?q={}"
+# Open rofi with a dmenu and pass the selected item to xdg-open for Google search/Bing
+# Change here for different search engine
+echo "" | rofi -dmenu -config "$rofi_config" -p "Search:" | xargs -I{} xdg-open "https://www.bing.com/search?q={}"
 
